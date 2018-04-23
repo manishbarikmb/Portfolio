@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Montserrat" rel="stylesheet">
+
+    <!-- favicon CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BootStrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Manish Barik</title>
+</head>
+<body>
+    <nav class="navbar navbar-fixed-bottom navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <span class="navbar-brand">
+                <h1 id="name" class="pl-3">Manish Barik</h1>
+                </span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item"><a href="#About" class="nav-link">About<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="About">
+        <div class="container-fluid overlay">
+            <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img style="filter:grayscale();" class="icon" src="img/icon1.jpg" alt="Manish Barik">
+                </div>
+                <div class="col-md-6 info">
+                    <p class="text-center">Hello! My name is Manish Barik and I'm a self taught web developer from India. I'm using FreeCodeCamp and a bunch of other freely available resources to learn <span>HTML5, CSS3, JavaScript, Python, Node, Angular and more</span>. FreeCodeCamp encourages campers to practice their skills by building projects - follow my journey here as I build my portfolio.<br><br>
+                    <!--     TECHNOLOGIES KNOWN:
+                        HTML, CSS, JavaScript, Python, Bootstrap, Github
+                     -->
+                    <blockquote class="text-center font-italic text-light bg-dark pt-4 pb-4 pl-3 pr-3 br-10" style="border-radius: 2px">“The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures.” <br><span class="font-italic font-weight-light text-info"> <h6>― Frederick P. Brooks Jr.</h6></span></blockquote>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section id="project" class="projects" style="background-color: #F08A5D">
+        <div class="container">
+            <h3 class="text-center">PORTFOLIO</h3>
+            <br>
+            <div class="row text-center">
+                <div class="col-lg-4 images">
+                    <a href="https://manishbarikmb.github.io/"><img src="img/project1.png"></a>
+                </div>
+                <div class="col-lg-4 images">
+                    <a><img src="http://via.placeholder.com/350x225"></a>
+                </div>
+                <div class="col-lg-4 images">
+                    <a><img src="http://via.placeholder.com/350x225"></a>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 images">
+                    <a><img src="http://via.placeholder.com/350x225"></a>
+                </div>
+                <div class="col-lg-4 images">
+                    <a><img src="http://via.placeholder.com/350x225"></a>
+                </div>
+                <div class="col-lg-4 images">
+                    <a><img src="http://via.placeholder.com/350x225"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="overlay">
+        <div class="container-fluid overlay">
+            <div class="container pt-3" >
+                <h3 class="text-center mt-5">CONTACT</h3>
+                <div class="container" style="width: 40%;margin: auto;">
+                    <div class="col pt-2 pb-5">
+                        <div class="row-3 pt-4 text-right">
+                            <button id="fbBtn" class="btn pr-3"><span> <i class="fab fa-facebook-f"></i></span> facebook</button>
+                        </div>
+                        <div class="row-3 pt-4">
+                            <button id="githubBtn" class="btn pl-3" style="line-height: 2rem;">github <span class="pl-3 pr-2"><img style="line-height: 2rem;height: 29px;width: 29px;" src="https://cdn.pixabay.com/photo/2013/07/12/19/25/github-154769_960_720.png" alt=""></span></button>
+                        </div>
+                        <div class="row-3 pt-4 text-right">
+                            <button id="fccBtn" class="btn pl-3 pr-3"><span><i class="fab fa-free-code-camp"></i></span> freecodecamp</button>
+                        </div>
+                        <div class="row-3 pt-4">
+                            <button id="gmailBtn" class="btn  pl-3 pr-4 pt-2">Mail <span><img style="line-height: 2rem;height: 29px;width: 29px;" class="pl-2" src="https://png.icons8.com/color/1600/gmail.png" alt=""></span></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid page-footer pt-4 text-primary pb-4 bg-dark text-center">
+        <h5>Designed From Scratch By Manish.</h5>
+    </footer>
+</body>
+
+<!-- Custom js -->
+<script src="main.js"></script>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-lZmvU/TzxoIQIOD9yQDEpvxp6wEU32Fy0ckUgOH4EIlMOCdR823rg4+3gWRwnX1M" crossorigin="anonymous"></script>
+</html>
